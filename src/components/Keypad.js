@@ -4,7 +4,7 @@ import '../styles/calculator.css';
 
 function Keypad({ onButtonClick }) {
   return (
-    <div className="keypad">
+    <div className="Keypad">
       <button className="key" type="button" onClick={() => onButtonClick('AC')} data="AC">AC</button>
       <button className="key" type="button" onClick={() => onButtonClick('+/-')} data="+/-">+/-</button>
       <button className="key" type="button" onClick={() => onButtonClick('%')} data="%">%</button>
