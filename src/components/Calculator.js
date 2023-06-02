@@ -4,7 +4,6 @@ import Display from './Display';
 import Keypad from './Keypad';
 import calculate from '../logic/calculate';
 import '../styles/calculator.css';
-import QuoteDisplay from './QuoteDisplay';
 
 const Calculator = ({ start }) => {
   const [display, setDisplay] = useState({ next: start });
@@ -18,7 +17,6 @@ const Calculator = ({ start }) => {
     <div className="calculator">
       <Display value={operation} />
       <Keypad onButtonClick={handleButtonClick} />
-      <QuoteDisplay />
     </div>
   );
 };
