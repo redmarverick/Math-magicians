@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/calculator.css';
 
 const QuoteDisplay = () => {
   const [quote, setQuote] = useState('');

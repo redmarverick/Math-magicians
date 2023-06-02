@@ -62,10 +62,3 @@
 .orange:hover {
   background-color: rgb(165, 108, 1);
 }
-
-.quote {
-  position: absolute;
-  top: 60%;
-  width: 100%;
-  left: 0;
-}
